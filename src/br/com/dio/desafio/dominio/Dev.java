@@ -37,6 +37,11 @@ public class Dev {
                 .sum();*/
     }
 
+    // cancela a matricula em um bootcamp
+    public void cancelarMatricula(Bootcamp bootcamp) {
+        // if ()
+        bootcamp.getDevsInscritos().remove(this);
+    }
 
     public String getNome() {
         return nome;

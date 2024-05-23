@@ -55,6 +55,11 @@ public class Bootcamp {
         this.conteudos = conteudos;
     }
 
+    // retorna número de devs inscritos no bootcamp
+    public int numeroAlunosInscritos() {
+        return devsInscritos.size();
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
