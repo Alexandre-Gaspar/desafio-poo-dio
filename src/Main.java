@@ -58,6 +58,13 @@ public class Main {
         System.out.println("Conteúdos Concluidos João:" + devJoao.getConteudosConcluidos());
         System.out.println("XP:" + devJoao.calcularTotalXp());
 
+        System.out.println("\n-----------------------------------------");
+        System.out.println("Inscritos que cancelaram a matrícula\n\n");
+        devJoao.cancelarMatricula(bootcamp);
+        System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
+
+        System.out.println("\n\nAlunos inscritos no bootcamp «" + bootcamp.getNome() + "»: " + bootcamp.numeroAlunosInscritos());
+
     }
 
 }
